@@ -1,13 +1,13 @@
 var hoTen, gioiTinh, tenDem, tenRieng;
 hoTen = prompt("Nhap ten:");
-gioiTinh = prompt("Nhap gioi tinh(Nam/Nu):");
+gioiTinh = prompt("Nhap gioi tinh (Nam/Nu):");
 var manghoten = hoTen.split(" ");
 ho = manghoten[0];
 tenRieng = manghoten[manghoten.length - 1];
     if (manghoten.length > 2){
         tenDem = "";
         for (var i=1; i<manghoten.length - 1; i++){
-            tenDem +=manghoten[i]+ " ";
+            tenDem += manghoten[i]+ " ";
         }
     }else{
         tenDem =" ";
@@ -23,4 +23,4 @@ if(gioiTinh == "nam"){
 }else{
     document.write("Gioi tinh khong hop le");
 }
-document.write("Ten moi:" + ho + "  " + tenDem + "  " + tenRieng);
+document.write("Ten moi:" + ho + "  " + tenDem +" "+ tenRieng);

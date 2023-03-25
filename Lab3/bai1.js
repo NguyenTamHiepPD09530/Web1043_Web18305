@@ -55,10 +55,10 @@ function tinhDiemTrungBinh(diemToan, diemLy, diemHoa, diemSinh){
 
      switch (chon){
         case 1:
-            document.write("Diem trung binh cua ban la:" + tinhDiemTrungBinhSwitch(diemToan, diemLy, diemHoa, diemSinh));
+            document.write("Diem trung binh cua ban la: " + tinhDiemTrungBinhSwitch(diemToan, diemLy, diemHoa, diemSinh));
         break;
         case 2:
-            document.write("Diem trung binh cua ban la:" + tinhDiemTrungBinh(diemToan, diemLy, diemHoa, diemSinh));
+            document.write("Diem trung binh cua ban la: " + tinhDiemTrungBinh(diemToan, diemLy, diemHoa, diemSinh));
         break;
         case 0:
             document.write("Cam on ban da su dung chuong trinh!");
