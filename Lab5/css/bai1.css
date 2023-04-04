@@ -1,0 +1,126 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+button {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    transition: linear .3s;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    background-color: #FFFAF0;
+    padding: 30px;
+    margin: auto;
+    border-radius: 30px;
+    box-shadow: 0 1px 3.125rem 0 rgba(0, 0, 0, 0.2);
+}
+
+.title {
+    letter-spacing: 3px;
+    text-align: center;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sub-title {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+    display: block;
+}
+
+input, textarea {
+    width: 100%;
+    display: block;
+    padding: 10px 25px;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    outline-color: #8FBC8F;
+    font-size: 14px;
+    color: #333;
+}
+
+#task-name {
+    margin-bottom: 30px;
+}
+
+#task-description {
+    margin-bottom: 30px;
+}
+
+.buttonrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 12px 40px;
+    background-color: #00b159;
+    color: #fff;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color:  #49b780;
+}
+
+.btn-disabled {
+    cursor: default;
+    background-color: rgb(146, 146, 146);
+    color: rgb(209, 209, 209);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn-disabled:hover {
+    background-color: rgba(127, 127, 127, 0.909);
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 25% 40% 15% 15%;
+    column-gap: 10px;
+    margin-top: 10px;
+}
+
+.btn-del {
+    background-color: #fe4a49;
+    color: #fff;
+}
+
+.btn-del:hover {
+    background-color: #ff6868;
+    cursor: pointer;
+}
+
+.btn-edit {
+    background-color: #6497b1;
+    color: #fff;
+}
+
+.btn-edit:hover {
+    background-color: #7da2b5;
+    cursor: pointer;
+}
