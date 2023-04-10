@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="css/bai1.css">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <video id="myVideo">
+    <source id="mp4_src" src="video/chuong_gio.mp4" type="video/mp4">
+  </video>
+<br>
+  <button onclick="playVid()" type="button">Play Video</button>
+  <button onclick="pauseVid()" type="button">Pause Video</button>
+  <button onclick="increaseVolume()">Tăng âm lượng</button>
+  <button onclick="decreaseVolume()">Giảm âm lượng</button>
+  <button onclick="stopVideo()">Dừng video</button>
+  <button>Bật lặp lại video
+  <input type="checkbox" onclick="toggleLoop()">
+  </button>
+  <script src="bai1.js"></script>
+</body>
+
+</html>
